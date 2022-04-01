@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    font-family:'Montserrat';
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.main_name{
+    margin:10px;
+    text-align:center;
+    font-size: 30px;
+}
+
+
+
+.nav-container{
+    display: flex;
+    margin:0;
+    padding:0;
+    /* border-bottom: 3px solid #7ba3d3; */
+    border-top: 3px solid #7ba3d3;
+    /* background-color:#cce6ff; */
+    list-style-type: none;
+    width: 100%;
+
+    justify-content: center; 
+    /* 메뉴바 가운데 정렬*/
+    
+}
+
+.nav-item{
+    padding: 15px;
+    cursor: pointer;
+    /* 마우스 커서를 pointer 모양으로 */
+}
+
+.nav-item a{
+    text-decoration: none; /*밑줄없애기*/
+    color: #7ba3d3;
+    font-weight: bold;
+}
+
+.home{
+    text-align: center;
+}
+
+.myimg{
+    margin-top:50px;
+    border-radius: 70%;
+    height:300px;
+    width: 300px;
+}
+
+.name{
+    margin-top: 30px;
+    font-size:20px;
+    color:#7c7c7c;    
+}
+
+.home_contact{
+    margin-top: 10px;
+    font-size:13px;
+    padding-top:0px;
+}
