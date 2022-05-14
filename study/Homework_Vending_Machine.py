@@ -38,6 +38,8 @@ user_price=(menu.get(select_menu))*how_many
 print(user_price)
 
 user_money=int(input("총 금액은 %d원입니다. 돈을 투입해주세요 >>>" %user_price))
+if (user_money<user_price):
+  print("%d원이 부족합니다."%(user_price-user_money))
 
 
 
