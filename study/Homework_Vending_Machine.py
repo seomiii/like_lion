@@ -27,7 +27,7 @@ how_many=0
 user_price=0
 user_money=0
 
-select_menu=int(input("커피 종류를 선택하세요. 번호 입력 >>>"))
+select_menu=int(input("커피 종류를 선택하세요.. 번호 입력 >>>"))
 whip=input("휘핑크림 추가해드릴까요? (Y/N) >>>")
 hot_ice=input("hot/ice를 선택하세요. (hot/ice) >>>")
 how_many=int(input("몇 잔 드릴까요? >>>"))
