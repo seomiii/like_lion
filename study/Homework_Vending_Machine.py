@@ -46,14 +46,12 @@ if (left_money>0):
 
 else:
   print("주문하신 %s 나왔습니다" %menu[select_menu-1][0])
-
   for i in range (how_many):
     if(hot_ice=='hot'):
       print('''
           S    S 
         S    S    S
   ''')
-
     if (whip.upper()=='Y'):
       print('''
             @@@
@@ -61,7 +59,6 @@ else:
       @@@@      @@ 
       @            @  
   ''')
-
     if(select_menu == 1):
       print('''
       **************  
@@ -69,7 +66,6 @@ else:
         **Coffee**  *** 
           ****** 
   ''')
-
     elif(select_menu==2):
       print('''
       **************  
@@ -78,7 +74,6 @@ else:
         ****  ****
           ******  
   ''')
-
     elif(select_menu==3):
       print('''
       **************
